@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      initialRoute: '/',
+      initialRoute: '/scan',
       routes: {
         '/': (context) => const Sensors1Screen(),
         '/scan': (context) => const CodeScanScreen(),
